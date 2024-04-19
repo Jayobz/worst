@@ -1,0 +1,41 @@
+.store-1{
+    height: 30vh;
+    width: 20vw;
+    border:  #131011 solid 1px;
+    background-image: url(/img/1.avif);
+    background-size: 100%;
+    margin-left: 30px;
+ }
+
+ .store-2{
+    height: 30vh;
+    width: 20vw;
+    border: #131011 solid 1px;
+    background-image: url(/img/2.png);
+    background-size: 90%;
+    margin-left: 30px;
+ }
+ .store-3{
+    height: 30vh;
+    width: 15vw;
+    border:  #131011 solid 1px;
+    background-image: url(/img/3.jpg);
+    background-size: 90%;
+    margin-left: 30px;
+ }
+ .store-4{
+    height: 30vh;
+    width: 15vw;
+    border:  #131011 solid 1px;
+    background-image: url(/img/4.jpg);
+    background-size: 90%;
+    margin-left: 30px;
+ }
+ .store-5{
+    height: 30vh;
+    width: 20vw;
+    border:  #131011 solid 1px;
+    background-image: url(/img/5.jpg);
+    background-size: 90%;
+    margin-left: 30px;
+ }

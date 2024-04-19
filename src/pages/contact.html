@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="font-mono bg-gray-100">
+
+    <div class=" h-[100vh] w-[100vw] overflow-hidden">
+        <header class="bg-white backdrop-blur-sm z-50">
+            <nav class="container mx-auto py-4 md:py-6">
+                <ul class="flex justify-start space-x-4 text-lg">
+                    <li><a href="../index.html" >Home</a></li>
+                    <li><a href="category.html" >Category</a></li>
+                    <li><a href="contact.html" >Contact</a></li>
+                    <li><a href="product.html" >Product</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        
+
+    <div class="container mx-auto px-4 py-8">
+
+       
+
+        <div class="max-w-lg mx-auto bg-white shadow-md rounded-lg overflow-hidden">
+            <div class="px-6 py-4">
+                <form action="#" method="POST">
+                    <h1 class="text-3xl font-semibold text-center mb-8">Get in Touch</h1>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                           Your Name (required)
+                        </label>
+                        <input
+                            class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="name" type="text" placeholder="Your Name">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                           Your Email (required)
+                        </label>
+                        <input
+                            class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="email" type="email" placeholder="Your Email">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="subject">
+                           Subject
+                        </label>
+                        <input
+                            class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="email" type="email" placeholder="Enter Your Subject">
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+                            Message
+                        </label>
+                        <textarea
+                            class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="message" placeholder="Your Message" rows="6"></textarea>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <button class="bg-black text-white font-bold py-2 px-4 rounded hover:bg-white hover:text-black focus:outline-none focus:shadow-outline" type="submit">
+                            Send Message
+                        </button>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
